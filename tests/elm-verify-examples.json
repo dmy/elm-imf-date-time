@@ -1,0 +1,4 @@
+{
+  "root": "../src",
+  "tests": ["Imf.DateTime", "./README.md"]
+}
