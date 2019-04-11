@@ -66,6 +66,10 @@ then
     adding 1900. Two digit years between 00 and 49 are interpreted by
     adding 2000.
 
+If parsing fails, a `List Parser.DeadEnd` is returned. Install `elm/parser` and
+see [`Parser.DeadEnd`](https://package.elm-lang.org/packages/elm/parser/latest/Parser#DeadEnd)
+for producing helpful error messages.
+
 Examples:
 
     import Time
