@@ -6,6 +6,10 @@ Convert
 date and time strings to and from 
 [POSIX times](https://package.elm-lang.org/packages/elm/time/latest/Time#Posix).
 
+```sh
+    elm install dmy/elm-imf-date-time
+```
+
 Valid strings include date and time strings conforming to
 [RFC5322](https://tools.ietf.org/html/rfc5322#section-3.3),
 as well as the obsolete
