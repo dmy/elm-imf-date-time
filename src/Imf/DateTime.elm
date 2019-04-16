@@ -60,7 +60,7 @@ then
 [RFC5322](https://tools.ietf.org/html/rfc5322#section-4.3):
 
   - Military time zones as defined in
-    [RFC822](https://www.w3.org/Protocols/rfc822/#z28) and unknown
+    [RFC822](https://www.w3.org/Protocols/rfc822/#z28) and unknown uppercase
     alphabetic ones are considered equivalent to `-0000` UTC offset.
   - Two digit years between 50 and 99 or three digits years are interpreted by
     adding 1900. Two digit years between 00 and 49 are interpreted by
