@@ -58,7 +58,7 @@ Imf.DateTime.toPosix "1 Jan 70 00:00:00 GMT"
 est : Time.Zone
 est = Time.customZone -300 []
 
-Imf.DateTime.toPosix "11 Jan 2013 08:11:00 GMT"
+Imf.DateTime.toPosix "Fri, 11 Jan 2013 08:11:00 GMT"
     |>  Result.map (Imf.DateTime.fromPosix est)
 --> Ok ("Fri, 11 Jan 2013 03:11:00 -0500")
 ```
