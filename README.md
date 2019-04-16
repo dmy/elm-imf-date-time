@@ -25,7 +25,9 @@ without using any
 obsolete format.
 
 These date and time formats are found for example in
-[SMTP](https://tools.ietf.org/html/rfc5321) and
+[HTTP](https://tools.ietf.org/html/rfc7231#section-7.1.1.1),
+[SMTP](https://tools.ietf.org/html/rfc5321)
+and
 [RSS](http://www.rssboard.org/rss-specification).
 
 New Internet protocols should most likely NOT use this format.  
