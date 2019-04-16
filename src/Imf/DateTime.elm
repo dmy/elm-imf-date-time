@@ -169,8 +169,7 @@ date =
 
 weekday : Parser Int
 weekday =
-    succeed ()
-        |. chompWhile Char.isDigit
+    chompWhile Char.isDigit
         |> getChompedString
         |> andThen checkWeekday
 
@@ -209,8 +208,7 @@ month =
 
 year : Parser Int
 year =
-    succeed ()
-        |. chompWhile Char.isDigit
+    chompWhile Char.isDigit
         |> getChompedString
         |> andThen checkYear
 
@@ -293,8 +291,7 @@ toOffset sign hourOffset minuteOffset =
 
 timezone : Parser Int
 timezone =
-    succeed ()
-        |. chompWhile Char.isUpper
+    chompWhile Char.isUpper
         |> getChompedString
         |> andThen checkZone
 
