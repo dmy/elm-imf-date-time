@@ -3,7 +3,7 @@
     "name": "dmy/elm-imf-date-time",
     "summary": "RFC5322, RFC2822, RFC822 - Internet Message Format date & time strings",
     "license": "BSD-3-Clause",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "exposed-modules": [
         "Imf.DateTime"
     ],
