@@ -1,5 +1,4 @@
 # **Internet Message Format** Date & Time
- [![Elm package](https://img.shields.io/elm-package/v/dmy/elm-imf-date-time.svg)](https://package.elm-lang.org/packages/dmy/elm-imf-date-time/latest/) [![Build Status](https://travis-ci.com/dmy/elm-imf-date-time.svg?branch=master)](https://travis-ci.com/dmy/elm-imf-date-time)
 
 Convert
 [Internet Message Format](https://tools.ietf.org/html/rfc5322#section-3.3)
